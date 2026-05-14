@@ -327,7 +327,7 @@ The AC-108 PDB performs:
 |  |  | purple | 15 | 🟪 || ⬜️ | 16 | white | 3.3V | |
 |  | 3.3V / CONT-GND | gray | 17 | 🔲 || 🟦 | 18 | blue | 3.3V | |
 |  |  | brown | 19 | 🟫 || 🟩 | 20 | green | 0V | |
-| Signal → PSU5 off | GND | black | 21 | ⬛️ || 🟧 | 22 | orange | 0–3.3V / CONT-GND | Singal stuff going on, changing voltag periodically |
+| Signal → PSU5 off | GND | black | 21 | ⬛️ || 🟧 | 22 | orange | 0–3.3V / CONT-GND | Singal stuff going on, changing voltag periodically. When bridged to Pin 24 PSUs turn off — still green statuslight on both PSUs |
 |  | CONT-GND | blue | 23 | 🟦 || 🟧 | 24 | orange |  | |
 |  | 3.3V / CONT-GND | red | 25 | 🟥 || 🟧 | 26 | orange | CONT-GND | |
 |  |  | red | 27 | 🟥 || ⬛️ | 28 | black | CONT-GND | |
@@ -339,4 +339,4 @@ PSU-1: middle position or left position when viewed from the rear
 
 PSU-2: outer position or right position when viewed from the rear
 
-CONT-GND: Continuity to GND
+CONT-GND: meassured continuity to GND
